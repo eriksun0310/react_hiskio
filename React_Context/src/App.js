@@ -33,14 +33,7 @@ function App() {
   }
 
   return (
-    <div className="App">
-        {/* 傳遞value 這個值 給  FunctionComponent*/}
-       {/* <ThemeProvider>
-       <FunctionComponent/>
-       </ThemeProvider> */}
-       
-
-
+    <div className="App">    
          <ThemeContext.Provider value={dark}>
           <div className='container'>
             <div className='section'>
